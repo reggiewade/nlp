@@ -1,0 +1,42 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore environment and dependency files
+.env
+.venv/
+venv/
+
+# Ignore Jupyter output and metadata
+*.ipynb~
+
+# Ignore data files (optional, customize as needed)
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore machine-specific settings
+.vscode/
+.idea/
+*.bak
+
+# Ignore package management files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore compiled Python files
+*.so
+*.dll
+*.dylib
+*.pyd
