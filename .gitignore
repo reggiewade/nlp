@@ -34,9 +34,17 @@ venv/
 # Ignore package management files
 pip-log.txt
 pip-delete-this-directory.txt
+*.p
 
 # Ignore compiled Python files
 *.so
 *.dll
 *.dylib
 *.pyd
+
+# Ignore assets
+*.jpg
+*.jpeg
+*.webp
+*.png
+*.train
